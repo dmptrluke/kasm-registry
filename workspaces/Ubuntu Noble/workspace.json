@@ -7,7 +7,6 @@
     "gpu_count": 0,
     "cpu_allocation_method": "Inherit",
     "docker_registry": "https://ghcr.io/",
-    "name": "ghcr.io/dmptrluke/kasm-workspace-ubuntu-noble-desktop:1.16.0",
     "categories": [
       "Desktop",
       "Productivity",
