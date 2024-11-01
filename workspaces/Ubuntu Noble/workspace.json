@@ -1,0 +1,34 @@
+{
+    "friendly_name": "Ubuntu Noble",
+    "image_src": "ubuntu.png",
+    "description": "Ubuntu is a Linux distribution based on Debian.",
+    "cores": 2,
+    "memory": 2768,
+    "gpu_count": 0,
+    "cpu_allocation_method": "Inherit",
+    "docker_registry": "https://ghcr.io/",
+    "name": "dmptrluke/kasm-workspace-ubuntu-noble-desktop:1.16.0",
+    "categories": [
+      "Desktop",
+      "Productivity",
+      "Development"
+    ],
+    "require_gpu": false,
+    "enabled": true,
+    "image_type": "Container",
+    "run_config": {
+      "hostname": "kasm"
+    },
+    "notes": "The Kasm Ubuntu Noble Workspace requires libseccomp => 2.5.3 to run.\n\nThis can be checked by running runc --version\n\nIf you still want to run Ubuntu Noble but do not have the minimum required libseccomp version, it can be run in an unsecure manner by adding: {\"security_opt\":[\"seccomp=unconfined\"]} to the Docker Run Config Override (JSON) setting above.\n\nNOTE: This will run the Workspace without the docker seccomp sandbox and will significantly reduce the amount of protection that Kasm Workspaces can provide.\n",
+    "architecture": [
+      "amd64",
+      "arm64"
+    ],
+    "compatibility": [
+      {
+        "version": "1.16.x",
+        "image": "dmptrluke/kasm-workspace-ubuntu-noble-desktop:1.16.0",
+        "uncompressed_size_mb": 5415
+      }
+    ]
+  }
