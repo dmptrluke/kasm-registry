@@ -25,7 +25,7 @@
     "compatibility": [
       {
         "version": "1.16.x",
-        "image": "ghcr.io/dmptrluke/kasm-workspace-ubuntu-noble-desktop:1.16.0",
+        "image": "ghcr.io/dmptrluke/kasm-workspace-ubuntu-noble-desktop:1.16.1",
         "uncompressed_size_mb": 5415
       }
     ]
