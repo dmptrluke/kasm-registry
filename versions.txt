@@ -1,3 +1,4 @@
 1.0
 1.1
+chore_GHA-260225-stepsecurity-remediation
 feature_dependency_update
